@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(199, 198, 198);
+    font-family: 'Souce Sans Pro', sans-serif;
+}
+
+/*Menu de navegação*/
+.topo{
+    background: #00cad1;
+    width: 100%;
+}
+
+.topo .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.topo-titulo-img-e-nome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-nome-clinica{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-shadow: 2px 2px 3px #404040;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.topo-nome-clinica p{
+    margin-right: 20px;
+    padding-left: 8px;
+    border-left: 2px solid #e8181897;
+    border-bottom: 5px solid #e8181897;
+}
+
+.topo-links a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px #404040;
+}
+
+.topo-links a:hover{
+    color: #000000;
+    transition: 0.4s;
+    border-bottom: 4px solid #e8181897;
+    border-left: 1px solid #e8181897;
+}
+
+main{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
